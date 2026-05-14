@@ -236,7 +236,7 @@ enable_cards_tag_filtering = true
 invert_title_order = false
 
 # Full path after the base URL required. So if you were to place it in "static" it would be "/favicon.ico"
-# favicon = ""
+favicon = "/favicon.ico"
 
 # Add an emoji here to use it as favicon.
 # Compatibility: https://caniuse.com/link-icon-svg
@@ -287,13 +287,6 @@ encode_plaintext_email = true  # Setting is ignored if email is already encoded.
 # Example: for @username@example.com, use:
 # fediverse_creator = { handle = "username", domain = "example.com" }
 
-# Extra menu to show on the footer, below socials section.
-# footer_menu = [
-#     {url = "about", name = "about", trailing_slash = true},
-#     {url = "privacy", name = "privacy", trailing_slash = true},
-#     {url = "sitemap.xml", name = "sitemap", trailing_slash = false},
-#     {url = "https://example.com", name = "external link", trailing_slash = true},
-# ]
 
 # Enable a copyright notice for the footer, shown between socials and the "Powered by" text.
 # $TITLE will be replaced by the website's title.
