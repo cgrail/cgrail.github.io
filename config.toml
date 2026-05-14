@@ -250,7 +250,7 @@ favicon = "/favicon.ico"
 
 menu = [
     { name = "blog", url = "blog", trailing_slash = true },
-    { name = "about", url = "/", trailing_slash = false }
+    { name = "about", url = "about", trailing_slash = true }
 ]
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set.
