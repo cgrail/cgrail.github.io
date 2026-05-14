@@ -250,7 +250,7 @@ invert_title_order = false
 
 menu = [
     { name = "blog", url = "blog", trailing_slash = true },
-    { name = "about", url = "", trailing_slash = true }
+    { name = "about", url = "/", trailing_slash = false }
 ]
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set.
